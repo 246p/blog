@@ -99,7 +99,7 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "GTM-524D7HPF"
     bing:
       SiteVerificationTag: "XYZabc"
     yandex:
