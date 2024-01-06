@@ -25,10 +25,10 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light
   disableThemeToggle: true
-  sectionPagesMenu: main
+  sectionPagesMenu: true
   ShowReadingTime: false
   ShowShareButtons: false
-  ShowPostNavLinks: true
+  ShowPostNavLinks: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowWordCount: false
@@ -39,9 +39,13 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
-  tocopen: false
-
+  ShowToc: true
+  TocOpen: true
+  mainSections: #메인 화면에 띄울 갯수
+  - blog
+  - docs
+  - hacking
+  - post
   assets:
     # disableHLJS: true # to disable highlight.js
     #disableFingerprinting: true
@@ -72,9 +76,18 @@ params:
         url: tags
 
   # home-info mode
-  homeInfoParams:
-    Title: "Hello\U0001F44B"
-    Content: Welcome to MJ`s Blog
+#  homeInfoParams:
+#    Title: "Hello\U0001F44B"
+#    Content: Welcome to MJ`s Blog
+
+  profileMode:
+        enabled: true
+        title: "Hello World"  #\U0001F44B" # optional default will be site title
+        subtitle: "Welcome to MJ`s Blog"
+        imageUrl: "" # optional
+        imageTitle: "" # optional
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
 
   socialIcons:
     - name: github
@@ -97,11 +110,6 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
-
   # for search
   # https://fusejs.io/api/options.html
   fuseOpts:
@@ -112,23 +120,23 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
-menu:
+menu: # 메뉴에서 이중 디렉토리는 불가능함
   main:
-    - identifier: CV
-      name: CV
-      url: https://naver.com
-      weight: 10
     - identifier: POST
       name: POST
       url: /POST
-      weight: 20
-    - identifier: study
-      name: study
-      url: /post/study/
-      weight: 30
+      weight: 10
     - identifier: hacking
       name: hacking
       url: /hacking
+      weight: 20
+    - identifier: blog
+      name: blog
+      url: /blog
+      weight: 30
+    - identifier: CV
+      name: CV
+      url: https://naver.com
       weight: 40
 
 
