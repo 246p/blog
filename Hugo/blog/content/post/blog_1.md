@@ -12,13 +12,12 @@ draft: false # 글쓰기 아이콘 어디 사용되는지 모르겠음
 hidemeta: false # 시간, 작성자 등 
 comments: false
 description: "블로그를 시작하면서"
-canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
-hideSummary: false
+hideSummary: true
 searchHidden: false
-ShowReadingTime: false # 읽은 시간
+ShowReadingTime: true # 읽은 시간
 ShowBreadCrumbs: true # Home >> posts
 ShowPostNavLinks: true
 ShowWordCount: false # 단어 수
