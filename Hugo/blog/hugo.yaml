@@ -106,7 +106,7 @@ params:
       SiteVerificationTag: "XYZabc"
 
   cover:
-    image: "https://github.com/246p/246p.github.io/assets/63668352/2ee2753e-14fa-4a53-93f7-f176c5af559e"
+    image: "https://github.com/246p/blog/blob/main/Hugo/blog/Cover.png?raw=true"
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
@@ -136,7 +136,7 @@ menu: # 메뉴에서 이중 디렉토리는 불가능함
       weight: 30
     - identifier: CV
       name: CV
-      url: https://docs.google.com/document/d/1ZByTPJ0BOfy14Zpwjisc0QT0JuTDOpcl/edit?usp=sharing&ouid=104987107477019496766&rtpof=true&sd=true
+      url: https://github.com/246p/blog/blob/main/Hugo/blog/Cover.png?raw=true
       weight: 40
 
 

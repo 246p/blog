@@ -24,7 +24,7 @@ ShowWordCount: false # 단어 수
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "https://github.com/246p/246p.github.io/assets/63668352/2ee2753e-14fa-4a53-93f7-f176c5af559e" # image path/url
+    image: "https://github.com/246p/blog/blob/main/Hugo/blog/Cover.png?raw=true" # image path/url
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
