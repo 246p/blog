@@ -16,8 +16,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: Junlog
+  description: "MJ's study log"
   keywords: [Blog, Portfolio, PaperMod]
   author: Kim-Minjoon
   # author: ["Me", "You"] # multiple authors
@@ -52,7 +52,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "246p"
+    text: "HOME"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
