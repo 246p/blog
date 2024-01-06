@@ -34,15 +34,8 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-2학년 겨울 방학에 들어가기 앞서 나만의 포트폴리오를 만들어 보고싶다는 생각을 하게 되었다.
+2학년 겨울 방학에 들어가기 앞서 나만의 공부 내용을 정리할만한 블로그를 만들어 보고싶다는 생각을 하게 되었다.
 
-Velog, github.io, Tistory 등 여러 플랫폼이 있지만 git 공부와 겸하여 github.io를 선택하게 되었다.
+개인 서버를 이용하여 웹사이트를 구축할까도 생각해보았지만 도메인 호스팅 비용, 서버유지관리 등 측면에서 github.io를 선택하게 되었다. 
 
-먼저 이를 작성하기 위한 언어는 크게 세가지다
-
-
-> Jkelly
-
-```hello.c
-printf("hello world\n");
-```
+앞으로 주 1회 이상 매주 공부한 내용을 포스팅할 예정이다.
