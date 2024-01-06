@@ -36,8 +36,5 @@ aa
 
 ![img](https://github.com/246p/246p.github.io/assets/63668352/2ee2753e-14fa-4a53-93f7-f176c5af559e)
 
-![google](https://drive.google.com/file/d/1-53O5LKgp6f9yWbqcDOaw_-lrGORMQ4E/view?usp=sharing)
-
-![local](./../../Cover.png)
 
 ![repo](https://github.com/246p/blog/blob/main/Hugo/blog/Cover.png?raw=true)
