@@ -28,7 +28,7 @@ params:
   sectionPagesMenu: true
   ShowReadingTime: false
   ShowShareButtons: false
-  ShowPostNavLinks: false
+  ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowWordCount: false
@@ -136,7 +136,7 @@ menu: # 메뉴에서 이중 디렉토리는 불가능함
       weight: 30
     - identifier: CV
       name: CV
-      url: https://naver.com
+      url: https://docs.google.com/document/d/1ZByTPJ0BOfy14Zpwjisc0QT0JuTDOpcl/edit?usp=sharing&ouid=104987107477019496766&rtpof=true&sd=true
       weight: 40
 
 
