@@ -39,3 +39,5 @@ aa
 ![google](https://drive.google.com/file/d/1-53O5LKgp6f9yWbqcDOaw_-lrGORMQ4E/view?usp=sharing)
 
 ![local](./../../Cover.png)
+
+![repo](https://github.com/246p/blog/blob/main/Hugo/blog/Cover.png?raw=true)
