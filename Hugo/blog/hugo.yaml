@@ -41,11 +41,7 @@ params:
   hideSummary: false
   ShowToc: true
   TocOpen: true
-  mainSections: #메인 화면에 띄울 갯수
-  - blog
-  - docs
-  - hacking
-  - post
+  
   assets:
     # disableHLJS: true # to disable highlight.js
     #disableFingerprinting: true
@@ -79,7 +75,11 @@ params:
 #  homeInfoParams:
 #    Title: "Hello\U0001F44B"
 #    Content: Welcome to MJ`s Blog
-
+#  mainSections: #메인 화면에 띄울 갯수
+#    - blog
+#    - docs
+#    - hacking
+#    - post
   profileMode:
         enabled: true
         title: "Hello World"  #\U0001F44B" # optional default will be site title
@@ -124,15 +124,15 @@ menu: # 메뉴에서 이중 디렉토리는 불가능함
   main:
     - identifier: POST
       name: POST
-      url: /POST
+      url: /post
       weight: 10
     - identifier: hacking
       name: hacking
-      url: /hacking
+      url: /post/hacking/
       weight: 20
     - identifier: blog
       name: blog
-      url: /blog
+      url: /post/blog/
       weight: 30
     - identifier: CV
       name: CV
