@@ -3,7 +3,8 @@ title: "4. 중간 점검"
 date: 2024-01-07T05:52:58+09:00
 #weight: 1
 # aliases: ["/first"]
-tags: ["blog", "hugo", "Papermod"]
+tags: ["Hugo", "Papermod"]
+categories: ["2024", "Blog"]
 author: "Kim-Minjoon"
 # author: ["Me", "You"] # multiple authors
 showToc: true

@@ -3,7 +3,8 @@ title: "1. Hugo 시작"
 date: 2024-01-06T18:12:26+09:00
 #weight: 1
 # aliases: ["/first"]
-tags: ["Hugo", "Papermod", Blog]
+tags: ["Hugo", "Papermod"]
+categories: ["2024", "Blog"]
 author: "Kim-Minjoon"
 # author: ["Me", "You"] # multiple authors
 showToc: true

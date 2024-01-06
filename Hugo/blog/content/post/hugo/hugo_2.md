@@ -3,7 +3,8 @@ title: "2. MarkDown 문법"
 date: 2024-01-07T05:05:14+09:00
 #weight: 1
 # aliases: ["/first"]
-tags: ["blog", "Markdown"]
+tags: ["Hugo", "Papermod", "Markdown"]
+categories: ["2024", "Blog"]
 author: "Kim-Minjoon"
 # author: ["Me", "You"] # multiple authors
 showToc: false

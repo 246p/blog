@@ -4,6 +4,7 @@ date: 2024-01-06T14:39:45+09:00
 #weight: 1
 # aliases: ["/first"]
 tags: ["blog"]
+categories: ["2024", "blog"]
 author: "Kim-Minjoon"
 # author: ["Me", "You"] # multiple authors
 showToc: true
