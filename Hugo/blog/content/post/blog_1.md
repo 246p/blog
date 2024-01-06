@@ -36,4 +36,4 @@ editPost:
 
 2학년 겨울 방학에 들어가기 앞서 나만의 포트폴리오를 만들어 보고싶다는 생각을 하게 되었다.
 
-![a](/blog/img/cat.jpeg)
+![a](/blog/img/cat.jpeg)ㅎ
