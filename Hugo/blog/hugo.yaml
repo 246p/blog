@@ -17,7 +17,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Junlog
-  description: "MJ's study log"
+  description: "MJ's Study Log"
   keywords: [Blog, Portfolio, PaperMod]
   author: Kim-Minjoon
   # author: ["Me", "You"] # multiple authors
@@ -26,12 +26,12 @@ params:
   defaultTheme: dark # dark, light
   disableThemeToggle: true
 
-  ShowReadingTime: true
-  ShowShareButtons: true
+  ShowReadingTime: false
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
@@ -59,8 +59,8 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
+    title: Junlog
+    subtitle: "MJ's Study Log"
     imageUrl: "<img location>"
     imageWidth: 120
     imageHeight: 120

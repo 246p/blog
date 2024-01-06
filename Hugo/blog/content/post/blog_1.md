@@ -36,4 +36,13 @@ editPost:
 
 2학년 겨울 방학에 들어가기 앞서 나만의 포트폴리오를 만들어 보고싶다는 생각을 하게 되었다.
 
-![a](/blog/img/cat.jpeg)ss
+Velog, github.io, Tistory 등 여러 플랫폼이 있지만 git 공부와 겸하여 github.io를 선택하게 되었다.
+
+먼저 이를 작성하기 위한 언어는 크게 세가지다
+
+
+> Jkelly
+
+```hello.c
+printf("hello world\n");
+```
