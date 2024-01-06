@@ -106,22 +106,22 @@ params:
     keys: ["title", "content"] #"permalink", "summary", "content"]
 menu: # 메뉴에서 이중 디렉토리는 불가능함
   main:
-    - identifier: POST
-      name: POST
-      url: /post/
+    - identifier: archive
+      name: Archive
+      url: /archive/
       weight: 10
-    - identifier: hacking
-      name: hacking
-      url: /hacking/
-      weight: 20
-    - identifier: blog
-      name: blog
-      url: /blog/
-      weight: 30
-    - identifier: Search
+    - identifier: search
       name: Search
-      url: /Search/
+      url: /search/
+      weight: 20
+    - identifier: categories
+      name: Categories
+      url: /categories/
       weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40
     - identifier: CV
       name: CV
       url: https://github.com/246p/blog/blob/main/Hugo/blog/Cover.png?raw=true
@@ -131,6 +131,14 @@ menu: # 메뉴에서 이중 디렉토리는 불가능함
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
+permalinks:
+  post: /blog/:slugorfilename/
+
+outputs:
+  home:
+      - HTML
+      - RSS
+      - JSON
 markup:
   highlight:
     noClasses: false
@@ -139,4 +147,3 @@ markup:
     guessSyntax: true
     lineNos: true
     style: monokai
-
