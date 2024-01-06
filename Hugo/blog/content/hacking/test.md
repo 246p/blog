@@ -24,7 +24,7 @@ ShowWordCount: false # 단어 수
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "<image path/url>" # image path/url
+    image: "https://private-user-images.githubusercontent.com/63668352/294718556-2ee2753e-14fa-4a53-93f7-f176c5af559e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQ1NzY1NjIsIm5iZiI6MTcwNDU3NjI2MiwicGF0aCI6Ii82MzY2ODM1Mi8yOTQ3MTg1NTYtMmVlMjc1M2UtMTRmYS00YTUzLTkzZjctZjE3NmM1YWY1NTllLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTA2VDIxMjQyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU5Mzc5NzY3ZGVjMzdmMmNlNTFmOTg4NjVhNjQ3MDEyNmMwMmJmZDI1ODI0ZjY2NDdiYWJjY2I1OGQ0NjEwZWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.y3vD6kTtIkeKVYWAO3TkgWfJYlYj85fPJZO3CIJz_24" # image path/url
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
