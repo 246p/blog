@@ -11,7 +11,7 @@ showToc: true
 TocOpen: false
 draft: false # 글쓰기 아이콘
 hidemeta: false # 시간, 작성자 등 
-comments: false
+comments: true
 description: "" #부재목
 disableHLJS: false # to disable highlightjs
 disableShare: true # 아래 공유 관련 sns 메뉴 

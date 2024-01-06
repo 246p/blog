@@ -11,7 +11,7 @@ showToc: true
 TocOpen: true
 draft: false # 글쓰기 아이콘
 hidemeta: false # 시간, 작성자 등 
-comments: false
+comments: true
 #description: "부제목" #부제목
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: false # to disable highlightjs
