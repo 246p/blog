@@ -74,7 +74,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hello\U0001F44B"
-    Content: Welcome to Kim`s Blog
+    Content: Welcome to MJ`s Blog
 
   socialIcons:
     - name: github
