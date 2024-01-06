@@ -3,7 +3,7 @@ title: "Install_hugo"
 date: 2024-01-06T18:12:26+09:00
 #weight: 1
 # aliases: ["/first"]
-tags: ["Tag"]
+tags: ["Hugo", "blog"]
 author: "Kim-Minjoon"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -39,7 +39,7 @@ editPost:
 
 이 글은 Mac 사용자를 기준으로 작성되었다.
 
-1. hugo install
+1. hugo 설치
 
 먼저 home brew를 이용하여 hugo를 설치해야 한다.
 ```.sh
@@ -50,7 +50,21 @@ brew install hugo
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+2. github repository 만들기
+hugo 를 이용하여 사이트를 제작하기 위해서는 repository 2개가 필요하다.
 
+- blog : 사이트를 빌드 하기 위한 파일들을 저장한다.
+
+- 246p.github.io : 빌드된 사이트의 코드를 저장한다.
+
+다음과 같이 생성하였다.
+
+
+
+3. 
+```
+hugo new site blog
+```
 
 ```hello.c
 printf("hello world\n");

@@ -1,5 +1,5 @@
 baseURL: "https://246p.github.io/" #기본주소
-title: Junlog #이
+title: Junlog #이름
 paginate: 5
 theme: PaperMod
 
@@ -25,7 +25,7 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light
   disableThemeToggle: true
-
+  sectionPagesMenu: main
   ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: true
@@ -44,7 +44,7 @@ params:
 
   assets:
     # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
+    #disableFingerprinting: true
     favicon: "<link / abs url>"
     favicon16x16: "<link / abs url>"
     favicon32x32: "<link / abs url>"
@@ -116,12 +116,23 @@ menu:
   main:
     - identifier: CV
       name: CV
-      url: /CV/
+      url: https://naver.com
       weight: 10
     - identifier: POST
       name: POST
-      url: /POST/
+      url: /POST
       weight: 20
+    - identifier: study
+      name: study
+      url: /post/study/
+      weight: 30
+    - identifier: hacking
+      name: hacking
+      url: /hacking
+      weight: 40
+
+
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
