@@ -8,13 +8,12 @@ author: "Kim-Minjoon"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: true # 글쓰기 아이콘
+draft: false # 글쓰기 아이콘
 hidemeta: false # 시간, 작성자 등 
 comments: false
 description: "" #부재목
-disableHLJS: true # to disable highlightjs
+disableHLJS: false # to disable highlightjs
 disableShare: true # 아래 공유 관련 sns 메뉴 
-disableHLJS: false
 hideSummary: false #home에서 글 내용 안보이게
 searchHidden: false #글 검색 허용
 ShowReadingTime: false # 읽은 시간
@@ -31,7 +30,7 @@ cover:
     hidden: true # only hide on current single page
 editPost: 
     URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
+    Text: "" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
 
