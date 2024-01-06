@@ -2,14 +2,13 @@
 title: "{{ replace .File.ContentBaseName "-" " " | title }}"
 date: {{ .Date }}
 #weight: 1
-draft: false
 # aliases: ["/first"]
 tags: ["Tag"]
 author: "Kim-Minjoon"
 # author: ["Me", "You"] # multiple authors
-showToc: true
-TocOpen: false
-draft: false # 글쓰기 아이콘 어디 사용되는지 모르겠음
+showToc: true # 목차
+TocOpen: false #목차
+draft: true # 글쓰기 아이콘 어디 사용되는지 모르겠음
 hidemeta: false # 시간, 작성자 등 
 comments: false
 description: "부제목"

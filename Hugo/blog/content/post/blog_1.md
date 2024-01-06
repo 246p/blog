@@ -1,24 +1,24 @@
 ---
-title: "Hugo"
+title: "블로그를 시작하면서"
 date: 2024-01-06T14:39:45+09:00
 #weight: 1
 # aliases: ["/first"]
-tags: ["blog","github","Hugo"]
+tags: ["blog"]
 author: "Kim-Minjoon"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false # 글쓰기 아이콘 어디 사용되는지 모르겠음
+draft: true # 글쓰기 아이콘 어디 사용되는지 모르겠음
 hidemeta: false # 시간, 작성자 등 
 comments: false
-description: "블로그를 시작하면서"
+description: "" #부재목
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
-hideSummary: true
+hideSummary: false #home에서 안보이게
 searchHidden: false
-ShowReadingTime: true # 읽은 시간
-ShowBreadCrumbs: true # Home >> posts
+ShowReadingTime: false # 읽은 시간
+ShowBreadCrumbs: true # Home >> posts 내용
 ShowPostNavLinks: true
 ShowWordCount: false # 단어 수
 ShowRssButtonInSectionTermList: treu
