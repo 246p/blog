@@ -36,12 +36,21 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   ShowToc: true
   TocOpen: true
   
+  #
+  utteranc:
+    enable: true
+    repo: "246p/246p.github.io"
+    issueTerm: "pathname"
+    label: "comments"
+    theme: "github-light"
+    crossorigin: "anonymous"
+
   assets:
     # disableHLJS: true # to disable highlight.js
     #disableFingerprinting: true
