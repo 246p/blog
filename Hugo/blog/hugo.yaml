@@ -1,4 +1,4 @@
-baseURL: "https://246p.github.io/"
+baseURL: "https://246p.github.io/" #기본주소
 title: ExampleSite
 paginate: 5
 theme: PaperMod
