@@ -28,8 +28,8 @@ cover:
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    hidden: false # only hide on current single page
 ---
 
-
+aa
 ![img](https://private-user-images.githubusercontent.com/63668352/294718556-2ee2753e-14fa-4a53-93f7-f176c5af559e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQ1NzczMjUsIm5iZiI6MTcwNDU3NzAyNSwicGF0aCI6Ii82MzY2ODM1Mi8yOTQ3MTg1NTYtMmVlMjc1M2UtMTRmYS00YTUzLTkzZjctZjE3NmM1YWY1NTllLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTA2VDIxMzcwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ1OWYxN2Q3NTgwN2M0NGE1ODUxY2E3YjNhOWFhMTBlNThmOWRhNWVhNzAyZWMxODRjN2Q4ZTA3YTEwOTk5Y2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.ixYiLftC08F7YXfkmafgRaza5a-CgGlY5r_20gSOEBE)
