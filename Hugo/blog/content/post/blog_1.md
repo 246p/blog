@@ -8,15 +8,15 @@ author: "Kim-Minjoon"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: true # 글쓰기 아이콘 어디 사용되는지 모르겠음
+draft: true # 글쓰기 아이콘
 hidemeta: false # 시간, 작성자 등 
 comments: false
 description: "" #부재목
 disableHLJS: true # to disable highlightjs
-disableShare: false
+disableShare: true # 아래 공유 관련 sns 메뉴 
 disableHLJS: false
-hideSummary: false #home에서 안보이게
-searchHidden: false
+hideSummary: false #home에서 글 내용 안보이게
+searchHidden: false #글 검색 허용
 ShowReadingTime: false # 읽은 시간
 ShowBreadCrumbs: true # Home >> posts 내용
 ShowPostNavLinks: true
