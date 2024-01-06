@@ -51,13 +51,13 @@ menu 시스템을 다시 한번 손봐야 할것 같음
 
 > 이미지 첨부 안됨
 
-가장 큰 문제인데 이미지 첨부가 안됨
-```
+가장 큰 문제인데 상대 경로를 통한 이미지 첨부가 안됨
+```.md
     ![img](./../../themes/PaperMod/images/screenshot.png)
 ```
 ![img](./../../themes/PaperMod/images/screenshot.png)
-웹에서 받아오는건 가끔씩 됨
-```
+웹에서 받아오는건 됨
+```.md
     ![img](https://i.pinimg.com/474x/4b/e5/f3/4be5f377959674df9c2fe172df272482.jpg)
 ```
 ![img](https://i.pinimg.com/474x/4b/e5/f3/4be5f377959674df9c2fe172df272482.jpg)
