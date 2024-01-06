@@ -1,0 +1,4 @@
+[submodule "Hugo/blog/public"]
+	path = Hugo/blog/public
+	url = https://github.com/246p/246p.github.io.git
+	branch = master
