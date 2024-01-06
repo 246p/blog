@@ -1,5 +1,5 @@
 baseURL: "https://246p.github.io/" #기본주소
-title: Junlog
+title: Junlog #이
 paginate: 5
 theme: PaperMod
 
