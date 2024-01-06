@@ -1,9 +1,9 @@
 ---
-title: "2. MarkDown 문법"
-date: 2024-01-07T05:05:14+09:00
+title: "3. Papermod 설정"
+date: 2024-01-07T05:08:36+09:00
 #weight: 1
 # aliases: ["/first"]
-tags: ["Tag"]
+tags: ["Hugo", "Papermod", Blog]
 author: "Kim-Minjoon"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -30,4 +30,5 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 ---
-
+## 게시물 작성
+## default.md

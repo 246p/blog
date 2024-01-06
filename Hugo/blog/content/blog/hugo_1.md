@@ -1,5 +1,5 @@
 ---
-title: "Hugo 시작하기"
+title: "1. Hugo 시작"
 date: 2024-01-06T18:12:26+09:00
 #weight: 1
 # aliases: ["/first"]
