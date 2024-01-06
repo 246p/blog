@@ -75,7 +75,7 @@ params:
 
   socialIcons:
     - name: email
-      url: "0016kmj@u.sogang.ac.kr"
+      url: "https://mail.google.com/mail/?view=cm&source=mailto&to=0016kmj@u.sogang.ac.kr"
     - name: github
       url: "https://github.com/246p"
     - name: linkedin
