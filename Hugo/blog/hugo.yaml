@@ -99,6 +99,8 @@ params:
         imageHeight: 120 # custom size
 
   socialIcons:
+    - name: email
+      url: "0016kmj@u.sogang.ac.kr"
     - name: github
       url: "https://github.com/246p"
     - name: linkedin
