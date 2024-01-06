@@ -20,14 +20,14 @@ ShowReadingTime: false # 읽은 시간
 ShowBreadCrumbs: true # Home >> posts 내용
 ShowPostNavLinks: true
 ShowWordCount: false # 단어 수
-ShowRssButtonInSectionTermList: treu
+ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "<image path/url>" # image path/url
+    image: "./../../img/cat.jpeg" # image path/url
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    hidden: false # only hide on current single page
 editPost: 
     URL: "https://github.com/<path_to_repo>/content"
     Text: "" # edit text
@@ -36,3 +36,4 @@ editPost:
 
 2학년 겨울 방학에 들어가기 앞서 나만의 포트폴리오를 만들어 보고싶다는 생각을 하게 되었다.
 
+![a](/blog/img/cat.jpeg)

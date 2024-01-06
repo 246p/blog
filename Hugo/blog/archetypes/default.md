@@ -6,23 +6,22 @@ date: {{ .Date }}
 tags: ["Tag"]
 author: "Kim-Minjoon"
 # author: ["Me", "You"] # multiple authors
-showToc: true # 목차
-TocOpen: false #목차
-draft: true # 글쓰기 아이콘 어디 사용되는지 모르겠음
+showToc: true
+TocOpen: false
+draft: false # 글쓰기 아이콘
 hidemeta: false # 시간, 작성자 등 
 comments: false
-description: "부제목"
+description: "부제목" #부재목
 canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
-searchHidden: false
+disableHLJS: false # to disable highlightjs
+disableShare: true # 아래 공유 관련 sns 메뉴 
+hideSummary: false #home에서 글 내용 안보이게
+searchHidden: false #글 검색 허용
 ShowReadingTime: false # 읽은 시간
-ShowBreadCrumbs: true # Home >> posts
+ShowBreadCrumbs: true # Home >> posts 내용
 ShowPostNavLinks: true
 ShowWordCount: false # 단어 수
-ShowRssButtonInSectionTermList: treu
+ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
     image: "<image path/url>" # image path/url
