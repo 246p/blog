@@ -132,7 +132,7 @@ menu: # 메뉴에서 이중 디렉토리는 불가능함
       weight: 20
     - identifier: blog
       name: blog
-      url: /blog
+      url: /blog/
       weight: 30
     - identifier: CV
       name: CV

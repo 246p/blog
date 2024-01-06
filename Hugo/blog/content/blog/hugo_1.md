@@ -33,14 +33,14 @@ cover:
 ---
 
 
-## 들어가며
+## 0. 들어가며
 먼저 github.io를 이용하여 블로그를 구축하기위해서 SSG(Static Site Generator)를 정해야 한다.
 대표적으로 Jkelly(Ruby), Eleventy(Node.js), Hugo(Go) 중 Hugo를 선택하였다. 한국어 레퍼런스가 부족하다는 단점이 있지만 속도측면에서 가장 빠르기 때문이다.
 
 이 글은 Mac 사용자를 기준으로 작성되었다.
 
 
-## hugo 설치하기
+## 1. hugo 설치하기
 
 먼저 home brew를 이용하여 hugo를 설치해야 한다.
 ```.sh
@@ -52,7 +52,7 @@ brew install hugo
 ```
 
 
-## github repository 만들기
+## 2. github repository 만들기
 
 hugo 를 이용하여 사이트를 제작하기 위해서는 repository 2개가 필요하다.
 
@@ -61,7 +61,7 @@ hugo 를 이용하여 사이트를 제작하기 위해서는 repository 2개가 
 - 246p.github.io : 빌드된 사이트의 코드를 저장한다.
 
 
-## 사이트 생성하기
+## 3. 사이트 생성하기
 ```
 hugo new site blog --format yaml
 ```
@@ -85,7 +85,7 @@ git hugo server -D
 localhost:1313 에 접속하여 사이트가 작동되는지 확인할 수 있다.
 
 
-## github에 업로드하기
+## 4. github에 업로드하기
 다음은 사이트를 github와 연결해야한다.
 
 ```.sh
@@ -126,4 +126,10 @@ git push -u origin main
 다음 명령어를 실행하여 github에 업로드하자.
 ```
 ./deploy.sh
+```
+
+### 5. 게시물 만들기
+새로운 게시물을 만들때 다음과 같은 명령으로 만들 수 있다.
+```sh
+hugo new post/new_post.md
 ```

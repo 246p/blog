@@ -11,7 +11,7 @@ TocOpen: true
 draft: false # 글쓰기 아이콘
 hidemeta: false # 시간, 작성자 등 
 comments: false
-#description: "부제목" #부재목
+#description: "부제목" #부제목
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: false # to disable highlightjs
 disableShare: true # 아래 공유 관련 sns 메뉴 
