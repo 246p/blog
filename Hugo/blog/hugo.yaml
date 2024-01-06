@@ -70,7 +70,7 @@ params:
     enabled: false # needs to be explicitly set
     title: Junlog
     subtitle: "MJ's Study Log"
-    imageUrl: "<img location>"
+    imageUrl: "https://github.com/246p/blog/blob/main/Hugo/blog/Cover.png?raw=true"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image

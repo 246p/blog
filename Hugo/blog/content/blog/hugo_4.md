@@ -71,3 +71,4 @@ static site의 특성상 댓글이 기본 기능으로 없음, Utterance를 사�
 > 방문자수 확인
 
 Hits나 Google Analasys를 이용하여 구현할 수 있을것 같음, 난이도가 낮아보임
+
