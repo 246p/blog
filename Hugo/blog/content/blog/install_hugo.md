@@ -30,17 +30,12 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 editPost: 
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
+    URL: "https://github.com/246p/246p.github.io/content"
+    Text: "Suggest Changess" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
 
-목차
-[0. 들어가며](#들어가며)
-[1. hugo 설치하기](#hugo-설치하기)
-[2. gihub repository 만들기](#github-repository-만들기)
-[3. 사이트 생성하기](#사이트-생성하기)
-[4. github에 업로드하기](#github에-업로드하기)
+
 ## 들어가며
 먼저 github.io를 이용하여 블로그를 구축하기위해서 SSG(Static Site Generator)를 정해야 한다.
 대표적으로 Jkelly(Ruby), Eleventy(Node.js), Hugo(Go) 중 Hugo를 선택하였다. 한국어 레퍼런스가 부족하다는 단점이 있지만 속도측면에서 가장 빠르기 때문이다.
