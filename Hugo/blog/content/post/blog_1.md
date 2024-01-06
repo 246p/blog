@@ -28,10 +28,6 @@ cover:
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
-editPost: 
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "" # edit text
-    appendFilePath: true # to append file path to Edit link
 ---
 
 2학년 겨울 방학에 들어가기 앞서 나만의 공부 내용을 정리할만한 블로그를 만들어 보고싶다는 생각을 하게 되었다.

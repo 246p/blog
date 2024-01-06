@@ -1,9 +1,9 @@
 ---
-title: "{{ replace .File.ContentBaseName "-" " " | title }}"
-date: {{ .Date }}
+title: "Papermod 설정하기"
+date: 2024-01-07T05:08:36+09:00
 #weight: 1
 # aliases: ["/first"]
-tags: ["Tag"]
+tags: ["Hugo", "Papermod", Blog]
 author: "Kim-Minjoon"
 # author: ["Me", "You"] # multiple authors
 showToc: true
