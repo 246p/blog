@@ -10,7 +10,7 @@ showToc: true
 TocOpen: true
 draft: false # 글쓰기 아이콘
 hidemeta: false # 시간, 작성자 등 
-comments: false
+comments: true
 #description: "부제목" #부재목
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: false # to disable highlightjs
@@ -29,6 +29,13 @@ cover:
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
+utteranc:
+    enable: true
+    repo: "246p/246p.github.io"
+    issueTerm: "pathname"
+    label: "comments"
+    theme: "github-light"
+    crossorigin: "anonymous"
 ---
 
 >issue 1 권한없으면 안됨
