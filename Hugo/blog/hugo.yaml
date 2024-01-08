@@ -124,7 +124,7 @@ menu: # 메뉴에서 이중 디렉토리는 불가능함
       weight: 40
     - identifier: CV
       name: CV
-      url: https://github.com/246p/blog/blob/main/Hugo/blog/Cover.png?raw=true
+      url: https://drive.google.com/file/d/1Di1J0LxHNuXNiDbwFhOh2XMLAgUJtYlh/view?usp=drive_link
       weight: 50
 
 
