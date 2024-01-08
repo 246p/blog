@@ -46,28 +46,28 @@ markdown은 간단한 문법으로 쉽게 쓰고 읽을 수 있다. 다음과 �
 - Header
 
 다음과 같이 제목을 표기할 수 있다.
-```
-    # Header 1
-    ## Header 2
-    ### Header 3
+```md
+# Header 1
+## Header 2
+### Header 3
 ```
 # Header 1
 ## Header 2
 ### Header 3
 
 - BlockQuote
-```
+```md
 >first
 > > second
 > > > third
 ```
 
->first
+> first
 > > second
 > > > third
 
 - List
-```
+``` md
 1. first
 2. second
 3. third
@@ -78,7 +78,7 @@ markdown은 간단한 문법으로 쉽게 쓰고 읽을 수 있다. 다음과 �
 3. third
 
 순서를 바꾸어도 순서'만' 정렬된다.
-```
+``` md
 1. first
 3. third
 2. second
@@ -102,7 +102,7 @@ markdown은 간단한 문법으로 쉽게 쓰고 읽을 수 있다. 다음과 �
 - code
 
 다음과 같이 코드 들여쓰기를 할 수 있다.
-```
+``` md
     ```c
     printf("hello world\n");
     ```
@@ -113,7 +113,7 @@ markdown은 간단한 문법으로 쉽게 쓰고 읽을 수 있다. 다음과 �
 
 - vertical bar
 
-```
+```md
 ---
 ***
 ```
@@ -122,7 +122,7 @@ markdown은 간단한 문법으로 쉽게 쓰고 읽을 수 있다. 다음과 �
 
 - link
 
-```
+```md
     [Title](link)
     [Google](https://google.com)
 ```
