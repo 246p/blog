@@ -1,7 +1,7 @@
 ---
 title: "2. Introduction to Software Vulnerability"
 date: 2024-01-10T23:10:32+09:00
-tags: ["해킹", ""]
+tags: ["해킹", "작성중"]
 draft: false
 categories: ["2024","해킹"]
 ---
