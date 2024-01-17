@@ -1,9 +1,9 @@
 ---
 title: "1"
 date: 2024-01-17T12:57:33+09:00
-tags: ["F#"]
+tags: ["Fsharp"]
 draft: false
-categories: ["2024","F#","학부연구생"]
+categories: ["2024","Fsharp","학부연구생"]
 ---
 ## F#이란?
 
