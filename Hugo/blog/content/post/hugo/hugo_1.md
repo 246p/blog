@@ -80,7 +80,7 @@ echo "theme: Papermod" >> hugo.yaml
 
 이제 로컬 환경에서 만들어진 사이트를 시험해본다.
 ```.sh
-git hugo server -D
+hugo server -D
 ```
 
 localhost:1313 에 접속하여 사이트가 작동되는지 확인할 수 있다.
