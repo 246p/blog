@@ -81,7 +81,6 @@ abort가 발생할 조건을 random testing(blackbox fuzzing)으로 찾을 확�
 위의 예시를 가정하면 우리는 초기 4개의 문자열 good을 가지고 함수 top을 실행한다 (경로 ρ). Figure 2는 top에 대한 모든 실행 가능한 program path의 집합을 보여준다. 가장 왼쪽 경로는 'good'에 대한 프로그램의 첫번째 실행을 나타내며 프로그램 내의 모든 if문의 else에 해당하는 경로에 해당한다. leaf의 숫자들은 0은 cnt의 값을 나타내고 있다.
 
 ![figure2](./../../image/paper_2_Figure2.png)
-![d](./../../../public/image/paper_2_Figure2.png)
 
 normal execution과 함께 symbolic execution은 조건문이 어떻게 평가되는지에 따라 다음과 같은 condition을 수집한다.
 
