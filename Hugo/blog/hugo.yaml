@@ -40,7 +40,6 @@ params:
   hideSummary: false
   ShowToc: true
   TocOpen: true
-  mathjax: true
   #댓글 기능
   utteranc:
     enable: true
