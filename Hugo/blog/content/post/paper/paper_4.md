@@ -1,9 +1,9 @@
 ---
 title: "4. Evaluating Fuzz Testing"
 date: 2024-02-14T12:48:49+09:00
-tags: ["Tag"]
+tags: ["2024","학부연구생","논문", "fuzzer", "LAVA-M"]
 draft: false
-categories: ["2024"]
+categories: ["2024","학부연구생","논문"]
 ---
 
 [Evaluating Fuzz Testing](https://cseweb.ucsd.edu/~dstefan/cse227-spring20/papers/klees:evaluating.pdf)
