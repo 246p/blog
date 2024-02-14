@@ -107,7 +107,7 @@ AFL과 유사한 fuzzer들은 branch coverage를 지표로 사용한다. branch 
 ### Algorithm of Angora
 Algorithm 1은 Angora의 두 단계인 계측과 fuzzing loop를 보여준다. 
 
-![Algorithm1]
+![Algorithm1](./../../image/paper_3_algorithm1.png)
 
 fuzzing loop는 탐색되지 않은 branch를 선택하고 해당 branch를 탐색하는 input을 찾는다. input을 효율적으로 찾기 위한 기술은 다음과 같다.
 
@@ -121,7 +121,7 @@ fuzzing loop는 탐색되지 않은 branch를 선택하고 해당 branch를 탐�
 
 다음은 조건문을 fuzzing하는 단계의 diagram과 코드이다.
 
-![Figure1]
+![Figure1](./../../image/paper_3_figure1.png)
 
 ``` C
 void foo(int i, int j) {
@@ -264,11 +264,11 @@ Algorithm 2는 이 삽입 연산을 자세히 설명한다. Algorithm 3은 FIND,
 - leaf node는 label을 저장한다.
 - 내부 node는 label을 포함할 수 있지만 내부 node의 label은 교체하지 않는다.
 
-![Algorithm2]()
+![Algorithm2](./../../image/paper_3_algorithm2.png)
 
-![Algorithm3]()
+![Algorithm3](./../../image/paper_3_algorithm3.png)
 
-![Algorithm4]()
+![Algorithm4](./../../image/paper_3_algorithm4.png)
 
 이 구조를 이용하여 bit vecotr를 저장하는데 필요한 메모리 사용량을 크게 줄인다.
 
@@ -298,7 +298,7 @@ algorithm 5는 serach algorithm을 보여준다. 초기 x_0에서 시작하여 *
 
 gradient descent는 반복적으로 작용하여 x에서 시작하여 *f(x)*의 기울기$∇_xf(x)$ 를 계산하고 x를 $x-ϵ∇_xf(x)$ 로 업데이트 한다. 여기서 $ϵ$는 learning rate이다.
 
-![algorithm5]()
+![algorithm5](./../../image/paper_3_algorithm5.png)
 
 신경망을 훈련할때 연구자들은 훈련 오류를 최소화하는 가중치 집합을 찾기 위하여 gradient descent를 사용한다. 하지만 이 방법은 때때로 local minimum에 갇힐 수 있고 이는 global minimum이 아닐 수 있다. 다행이 fuzzing에서는 이는 문제가 되지 않는다. 우리는 global에서도 최적화 된 x 대신 적당히 좋은 x를 찾으면 되기 때문이다. 예를들어 constraint가 *f(x)*<0 라면 f(x)가 global minimum이 아닌 *f(x)*<0을 만족하는 x를 찾으면 되기 때문이다.  
 
